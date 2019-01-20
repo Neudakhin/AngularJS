@@ -1,0 +1,47 @@
+[{
+	"name": "Даниил",
+	"id": 1,
+	"children": [
+        {
+            "name": "Евгений",
+            "id": 2,
+            "children": []
+        },{
+            "name": "Василий",
+            "id": 3,
+            "children": [
+                {
+                    "name": "Константин",
+                    "id": 4,
+                    "children": []
+                }
+            ]
+        }
+    ]
+},{
+	"name": "Артур",
+	"id": 5,
+	"children": [
+        {
+            "name": "Пётр",
+            "id": 6,
+            "children": []
+        }
+    ]
+},{
+	"name": "Александр",
+	"id": 7,
+	"children": [
+        {
+            "name": "Валерий",
+            "id": 8,
+            "children": [
+                {
+                    "name": "Вениамин",
+                    "id": 9,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}]
