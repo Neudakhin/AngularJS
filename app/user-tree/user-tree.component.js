@@ -11,4 +11,10 @@ angular.
                 self.users = response.data;
             })
         }]
+    }).
+    component('userSubTree',{
+        templateUrl: 'user-tree/user-sub-tree.template.html',
+        bindings: {
+            usersArr: '<',
+        }
     })
