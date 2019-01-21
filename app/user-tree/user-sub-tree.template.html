@@ -1,0 +1,8 @@
+<ul class="list-group">
+    <li ng-repeat="user in $ctrl.usersArr"
+        class="list-group-item d-flex flex-column">
+        <span>ID: {{ user.id }}</span>
+        <span>Имя: {{ user.name }}</span>
+        <user-sub-tree users-arr="user.children" hide-self="$ctrl.hideChildren"></user-sub-tree>
+    </li>
+</ul>
