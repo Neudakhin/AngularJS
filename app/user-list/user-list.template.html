@@ -1,5 +1,7 @@
+<input type="text" ng-model='$ctrl.search'>
+
 <ul class="list-group">
-    <li ng-repeat="user in $ctrl.users" class="list-group-item d-flex flex-column">
+    <li ng-repeat="user in $ctrl.users | filter:$ctrl.search" class="list-group-item d-flex flex-column">
         <span>Имя: {{ user.name }}</span>
         <span>Возраст: {{ user.age }}</span>
         <span>Эл. почта: {{ user.email }}</span>
